@@ -1,0 +1,95 @@
+* {
+  font-family: Impact;
+  color: aliceblue;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapper {
+  display: block;
+  border: solid;
+  border-radius: 20px;
+  width: 600px;
+  height: 500px;
+  background-color: #92b4ec;
+}
+
+.title {
+  font-size: 50px;
+  margin: 25px 0px 30px 0px;
+}
+
+.length-control {
+  display: inline-block;
+  width: 285px;
+  font-size: 35px;
+}
+
+#break-label {
+  display: block;
+  letter-spacing: 2px;
+}
+
+#break-length {
+  width: 40px;
+}
+
+.btn-level {
+  font-size: 30px;
+  display: inline-block;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#session-length {
+  width: 40px;
+}
+
+#session-label {
+  display: block;
+  letter-spacing: 2px;
+}
+
+.timer {
+  border: 5px solid #ffd24c;
+  margin: 20px auto 10px auto;
+  width: 280px;
+  height: 170px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.timer-wrapper {
+  display: inline-block;
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  font-size: 35px;
+  right: 17%;
+  top: 17%;
+}
+
+#timer-label {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+#time-left {
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.timer-control button {
+  letter-spacing: 5px;
+  font-size: 30px;
+  display: inline-block;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
